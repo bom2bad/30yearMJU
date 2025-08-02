@@ -1,65 +1,74 @@
 <!DOCTYPE html>
 <html lang="th">
-<head>
-  <meta charset="UTF-8">
-  <title>สั่งซื้อของที่ระลึก</title>
-  <link rel="stylesheet" href="css/clientStyle.css">
-</head>
-<body>
-  <h1>🛍️ แบบฟอร์มสั่งซื้อของที่ระลึก 30 ปี</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <title>สั่งซื้อของที่ระลึก</title>
+    <link rel="stylesheet" href="css/clientStyle.css" />
+  </head>
+  <body
+    style="
+      background-image: url('https://i.pinimg.com/1200x/9d/5e/af/9d5eafbde04f1d9741dd5b8e5df1b8db.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <h1>🛍️ แบบฟอร์มสั่งซื้อของที่ระลึก 30 ปี</h1>
 
-  <form>
-    <div class="section">
-      <h2>👤 ข้อมูลลูกค้า</h2>
-      <label>ชื่อ - นามสกุล</label>
-      <input type="text">
+    <form>
+      <div class="section">
+          <h1>👤 ข้อมูลลูกค้า</h1>
+          
+          <label>ชื่อ</label>
+          <input type="text" />
 
-      <label>ที่อยู่</label>
-      <input type="text" placeholder="ระบุที่อยู่สำหรับจัดส่ง">
+          <label>นามสกุล</label>
+          <input type="text" />
+        
+        <label>ที่อยู่</label>
+        <input type="text" placeholder="ระบุที่อยู่สำหรับจัดส่ง" />
 
-      <label>เบอร์โทร</label>
-      <input type="tel">
-    </div>
+        <label>เบอร์โทร</label>
+        <input type="tel " pattern="[0-9]{11}" placeholder="123-456-7890" />
+      </div>
 
-    <div class="section">
-      <h2>🛒 รายการสินค้า</h2>
-      <label>เลือกสินค้า</label>
-      <select>
-        <option>เสื้อ - สีขาว</option>
-        <option>เสื้อ - สีกรม</option>
-        <option>กระเป๋า</option>
-        <option>แก้ว</option>
-        <option>หมวก</option>
-        <option>ร่ม</option>
-        <option>เข็มกลัด</option>
-        <option>สมุด</option>
-        <option>ปากกา</option>
-      </select>
+      <div class="section">
+        <h2>🛒 รายการสินค้า</h2>
+        <label>เลือกสินค้า</label>
+        <select>
+          <option>เสื้อ - สีขาว</option>
+          <option>เสื้อ - สีกรม</option>
+          <option>กระเป๋า</option>
+          <option>แก้ว</option>
+          <option>หมวก</option>
+          <option>ร่ม</option>
+          <option>เข็มกลัด</option>
+          <option>สมุด</option>
+          <option>ปากกา</option>
+        </select>
 
-      <label>รายละเอียดเพิ่มเติม</label>
-      <input type="text" placeholder="ระบุจำนวนหรือสีเพิ่มเติม">
+        <label>รายละเอียดเพิ่มเติม</label>
+        <input type="text" placeholder="ระบุจำนวนหรือสีเพิ่มเติม" />
 
-      <label>อัปโหลดรูปสลิปโอนเงิน</label>
-      <input type="file">
+        <label>วันที่ซื้อ</label>
+        <input type="date" />
 
-      <label>วันที่ซื้อ</label>
-      <input type="date">
+        <label>วิธีรับสินค้า</label>
+        <select>
+          <option>จัดส่ง</option>
+          <option>รับเอง</option>
+        </select>
 
-      <label>วิธีรับสินค้า</label>
-      <select>
-        <option>จัดส่ง</option>
-        <option>รับเอง</option>
-      </select>
-
-      <label>ช่องทางชำระเงิน</label>
-      <select>
-        <option>โอนผ่านธนาคาร</option>
-        <option>พร้อมเพย์</option>
-        <option>เงินสด</option>
-      </select>
-    </div>
-
-    <button type="submit">ส่งคำสั่งซื้อ</button>
-  </form>
-</body>
+        <label>ช่องทางชำระเงิน</label>
+        <select>
+          <option>โอนผ่านธนาคาร</option>
+          <option>พร้อมเพย์</option>
+          <option>เงินสด</option>
+        </select>
+        <label>อัปโหลดรูปสลิปโอนเงิน</label>
+        
+      </div>
+<input type="file" />
+      <button type="submit">ส่งคำสั่งซื้อ</button>
+    </form>
+  </body>
 </html>
