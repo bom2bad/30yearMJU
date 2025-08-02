@@ -1,6 +1,59 @@
-body { font-family: 'Segoe UI', sans-serif; background: #fffaf0; padding: 20px; }
-    h1 { color: #8b0000; }
-    form { background: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px #ccc; }
-    label { display: block; margin-top: 10px; font-weight: bold; }
-    input, select, textarea { width: 100%; padding: 8px; margin-top: 5px; }
-    .section { margin-bottom: 30px; }
+.section {
+  margin-bottom: 30px;
+  padding: 10px;
+    
+}
+h1 {
+  color: #178532;
+  text-align: center;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f1fff0;
+  padding: 20px;
+}
+form {
+  background: #fffdfd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #a7a5a5;
+  width: 60%;
+  margin: auto;
+}
+h2 {
+  color: #000000;
+  text-align: center;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  
+}
+input[type="file"] {
+  cursor: pointer;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+}
+
+button[type="submit"] {
+  background: #07a12e;
+  color: #ffffff;
+  border: none;
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 120%;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
